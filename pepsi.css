@@ -1,0 +1,500 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-image: url(bg.jpg) no-repeat cover cover/center;
+    /* font-weight: 500; */
+}
+
+#navbar {
+    display: flex;
+    height: 150px;
+    position: relative;
+    background-color: #0065c3;
+}
+
+#logo img {
+    height: 139px;
+    width: 135px;
+    margin: 5px 10px
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    display: flex;
+    font-size: 30px;
+    /* color: white; */
+    font-weight: 700;
+
+}
+
+#navbar ul li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin: 62px 40px;
+    padding: 0px 0px;
+}
+
+#navbar ul li a:hover {
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.button {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: -293px;
+}
+
+.btn {
+    margin: 33px 351px;
+    padding: 17px 67px;
+    border-radius: 40px;
+    background-color: #0065c3;
+    color: white;
+    border: 5px solid white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
+    background-color: white;
+    color: #0065c3;
+    cursor: pointer;
+    text-decoration: line-through;
+    transform: translate(-50px);
+    font-weight: 600;
+}
+
+#bgm {
+    display: flex;
+    padding: 0px 0px;
+    height: 1000px;
+}
+
+#bgm::before {
+    content: "";
+    background: url(bg.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.first img {
+    height: 204px;
+    width: 166px;
+    position: absolute;
+    margin: 700px -1632px;
+}
+
+.first img:hover {
+    transform: scale(1.5);
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.second img:hover {
+    transform: scale(1.5);
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.third img:hover {
+    transform: scale(1.5);
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.second img {
+    height: 204px;
+    width: 166px;
+    position: absolute;
+    margin: 700px -1876px;
+}
+
+.third img {
+    height: 204px;
+    width: 130px;
+    position: absolute;
+    margin: 703px -2350px
+}
+
+.fourth img {
+    height: 411px;
+    width: 675px;
+    position: absolute;
+    /* margin: 61px -1940p */
+}
+
+.fourth>img {
+    margin: 61px -1940px;
+}
+
+.fifth img {
+    height: 212px;
+    width: 126px;
+    position: absolute;
+    margin: 701px -2099px;
+}
+
+.fifth img:hover {
+    transform: scale(1.5);
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.text {
+    margin: 600px 22px;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    border-radius: 50px;
+    color: #3862ba;
+    border: 2px solid white;
+}
+
+.text:hover {
+    transform: translate(20px);
+    cursor: pointer;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.ab img {
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.8; */
+    position: relative;
+}
+
+.bc img {
+    width: 700px;
+    height: 950px;
+    position: absolute;
+    margin: 160px 1700px;
+    opacity: 0.9;
+}
+
+.bc>h1 {
+    padding: 0px 0px;
+    transform: rotate(-43deg);
+    MARGIN: 493px 686px;
+    font-size: 80px;
+    border: 1px solid white;
+    background-color: #3862ba;
+    font-weight: 800;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.bc>h2 {
+    padding: 0px 0px;
+    transform: rotate(50deg);
+    MARGIN: 477px 699px;
+    font-size: 80px;
+    border: 1px solid white;
+    background-color: #3862ba;
+    font-weight: 800;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.bc>h3 {
+    padding: 0px 34px;
+    /* transform: rotate(50deg); */
+    MARGIN: 486px 964px;
+    font-size: 80px;
+    border: 1px solid white;
+    background-color: #3862ba;
+    font-weight: 800;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.cd img {
+    float: left;
+    position: absolute;
+    margin: 0px 50px;
+    height: 932px;
+    width: 639px;
+    top: 3000px;
+}
+
+.secondhome {
+    /* opacity: 0.8; */
+    display: flex;
+    padding: 0px 0px;
+    height: 1180px;
+    background: url(12.jpg) no-repeat center center/cover;
+}
+
+/* .de img{
+    margin: 0px 320px;
+    height: 1500px;
+    width: 1977px;
+    position: relative; */
+
+/* background-color: black; */
+
+/* } */
+.de img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+/* .de h1{padding: 0px 0px;
+    float: left;
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(21, 43, 185);
+    transform: rotate(90deg);
+    margin: -795px -573px;
+
+    border: 2px solid black; */
+/* } */
+.last {
+    display: flex;
+    margin: 0px 10px;
+    height: 600px;
+    position: relative;
+}
+
+.last>img {
+    /* padding: 0px 0px; */
+    margin: 0px 0px;
+}
+
+.last img:hover {
+    height: 500px;
+    width: 500px;
+    opacity: 0.8;
+    /* transform: scale(1.1); */
+    transform: rotate(3deg);
+}
+
+.zz img {
+    width: 500px;
+    height: 500px;
+    margin: 124px 0px;
+}
+
+.yy img {
+    width: 500px;
+    height: 500px;
+    margin: 124px 0px;
+}
+
+.xx img {
+    width: 500px;
+    height: 500px;
+    margin: 124px 0px;
+}
+
+.ww img {
+    width: 500px;
+    height: 500px;
+    margin: 124px 0px;
+}
+
+.vv img {
+    width: 500px;
+    height: 500px;
+    margin: 124px 0px;
+}
+
+.last h1 {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 101px;
+    font-weight: 800;
+    margin: 10px 185px;
+    color: #0065c3;
+}
+
+.aakhri {
+    display: flex;
+    background-color: #0065c3;
+    margin: 24px 0px;
+    width: 2509px;
+    height: 500px;
+}
+
+.logo1 img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin: 150px 60px;
+}
+
+.logo1 img:hover {
+   transform: rotate(200deg);
+   transition-duration: 2s;
+    transition: ease-in;
+}
+
+.aakhri ul {
+    margin: 153px 443px;
+}
+
+#one li {
+    list-style: none;
+    padding: 15px 0px;
+    margin: 3px 8px;
+}
+
+#one a {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#second li {
+    list-style: none;
+    padding: 15px 0px;
+    margin: 3px -660px;
+}
+
+#second a {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#third li {
+    list-style: none;
+    padding: 15px 0px;
+    margin: 3px -1030px;
+}
+
+#third a {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.bt0 {
+    display: inline-block;
+    position: absolute;
+    top: 1500pxpx;
+    right: 0px;
+}
+
+.bt0 {
+    margin: 116px 70px;
+    padding: 11px 30px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #0065c3;
+    color: white;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
+.bt0:hover {
+    transform: scale(1.1);
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
+    background-color: white;
+    color: #0065c3;
+    cursor: pointer;
+    text-decoration: line-through;
+    transform: translate(-50px);
+    font-weight: 600;
+}
+
+.social {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    position: relative;
+}
+
+.fb img {
+    margin: 200px -900px;
+    padding: 0px 0px;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+
+}
+.fb img:hover{
+    opacity: 0.5;
+    height: 65px;
+    width: 65px;
+}
+.insta img{
+    height: 75px;
+    width: 75px;
+    margin: 188px -810px;
+    position: absolute
+}
+.insta img:hover{
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+}
+.twitter img {
+    margin: 185px -710px;
+    padding: 0px 0px;
+    position: absolute;
+    height: 75px;
+    width: 75px;
+}
+.twitter img:hover{
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+}
+
+.whatsapp img {
+    margin: 190px -600px;
+    padding: 0px 0px;
+    position: absolute;
+    height: 75px;
+    width: 75px;
+}
+.whatsapp img:hover{
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+}
+
+.pinterest img {
+    margin: 199px -500px;
+    padding: 0px 0px;
+    position: absolute;
+    height: 75px;
+    width: 75px;
+}
+.pinterest img:hover{
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+} 
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 1000px;
+    margin: -26px 0px;
+    font-size: 20px;
+}
+
+
+
